@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\StoreAlbumRequest;
+use App\Http\Requests\UpdateAlbumRequest;
+use App\Models\Album;
 
 class AlbumController extends Controller
 {
@@ -19,10 +21,10 @@ class AlbumController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Http\Requests\StoreAlbumRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreAlbumRequest $request)
     {
         //
     }
@@ -30,10 +32,10 @@ class AlbumController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Album  $album
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Album $album)
     {
         //
     }
@@ -41,11 +43,11 @@ class AlbumController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Http\Requests\UpdateAlbumRequest  $request
+     * @param  \App\Models\Album  $album
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(UpdateAlbumRequest $request, Album $album)
     {
         //
     }
@@ -53,10 +55,10 @@ class AlbumController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\Album  $album
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Album $album)
     {
         //
     }
