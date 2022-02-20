@@ -10,6 +10,7 @@ use App\Models\Album;
 use App\Models\ImageManipulation;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Str;
 use Intervention\Image\Facades\Image;
 
@@ -20,14 +21,18 @@ class ImageManipulationController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+        return ImageManipulationResource::collection(ImageManipulation::where('user_id', $request->user()->id)->paginate());
     }
 
-    public function byAlbum(Album $album)
+    public function byAlbum(Request $request, Album $album)
     {
-        //
+
+        return ImageManipulationResource::collection(ImageManipulation::where([
+            'user_id' => $request->user()->id,
+            'album_id' => $album->id
+        ])->paginate());
     }
 
     /**
@@ -96,7 +101,7 @@ class ImageManipulationController extends Controller
      * @param  \App\Models\ImageManipulation  $imageManipulation
      * @return \Illuminate\Http\Response
      */
-    public function show(ImageManipulation $imageManipulation)
+    public function show(ImageManipulation $image)
     {
         //
     }
@@ -107,10 +112,15 @@ class ImageManipulationController extends Controller
      * @param  \App\Models\ImageManipulation  $imageManipulation
      * @return \Illuminate\Http\Response
      */
-    public function destroy(ImageManipulation $imageManipulation)
+    public function destroy(Request $request, ImageManipulation $image)
     {
-        //
+        if ($image->user_id != $request->user()->id) {
+            return abort(403, 'Unauthorized action.');
+        }
+        $image->delete();
+        return response('', 204);
     }
+
     protected function getWidthAndHeight($w, $h, $originalPath)
     {
         $image = Image::make($originalPath);
