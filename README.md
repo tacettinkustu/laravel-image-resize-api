@@ -1,7 +1,7 @@
 # Image Resize API with Laravel
 > This project was build for the undrstanding details of laravel framework.
 
-![web](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png)
+![web](https://novasta.com.tr/wp-content/uploads/193-1939856_laravel-laravel-logo-png.png)
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
