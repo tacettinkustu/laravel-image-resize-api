@@ -19,6 +19,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 * PHP
 * HTML
 * CSS
+* Javascript
 
 ## Presentation of Project
 
