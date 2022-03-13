@@ -7,7 +7,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 * Simple, fast routing engine.
 * Powerful dependency injection container.
-* Multiple back-ends for session and cache storage.
+* Multiple backends for session and cache storage.
 * Expressive, intuitive database ORM.
 * Database agnostic schema migrations.
 * Robust background job processing.
@@ -54,8 +54,6 @@ Run php artisan serve which will start the server at http://localhost:8000
 - GitHub: [@tacettinkustu](https://github.com/tacettinkustu)
 - LinkedIn: [tacettinkustu](https://www.linkedin.com/in/tacettin-k%C3%BCst%C3%BC-aaba721b5/)
 
-
-Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
