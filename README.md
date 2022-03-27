@@ -1,5 +1,5 @@
 # Image Resize API with Laravel
-> This project was build for the understanding details of the laravel framework.
+> This project was build for the understanding details of the Laravel framework.
 
 ![web](https://novasta.com.tr/wp-content/uploads/193-1939856_laravel-laravel-logo-png.png)
 
