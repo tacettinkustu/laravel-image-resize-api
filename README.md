@@ -37,12 +37,12 @@ Before you start the installation process you need to have installed composer
 * Clone the project
 * Navigate to the project root directory using command line
 * Run 
-```bash composer install ```
+    ```bash composer install ```
 * Copy .env.example into .env file
 * Adjust DB_* parameters.
 * If you want to use Mysql, make sure you have mysql server up and running.
 * Run 
- ```bash php artisan migrate ```
+    ```bash php artisan migrate ```
  
 ## Installing locally for development
 
