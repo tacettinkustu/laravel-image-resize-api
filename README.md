@@ -7,7 +7,7 @@
 
 * Simple, fast routing engine.
 * Powerful dependency injection container.
-* Multiple backends for session and cache storage.
+* Multiple backends for sessions and cache storages.
 * Expressive, intuitive database ORM.
 * Database agnostic schema migrations.
 * Robust background job processing.
