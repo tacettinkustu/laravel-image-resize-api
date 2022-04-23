@@ -40,7 +40,7 @@ Before you start the installation process you need to have installed composer
     ```bash composer install ```
 * Copy .env.example into .env file
 * Adjust DB_* parameters.
-* If you want to use Mysql, make sure you have mysql server up and running.
+* If you want to use Mysql database, make sure you have mysql server up and running.
 * Run 
     ```bash php artisan migrate ```
  
