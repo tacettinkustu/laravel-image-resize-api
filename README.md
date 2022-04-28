@@ -44,7 +44,7 @@ Before you start the installation process you need to have installed composer
 * Run 
     ```bash php artisan migrate ```
  
-## Installing locally for development
+## Installing locally for development environment
 
 Run php artisan serve which will start the server at http://localhost:8000
 
