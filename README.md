@@ -32,7 +32,7 @@
 ```bash php-mbstring php-dom php-intl php-curl php-mysql php-gd ```
 
 ## Basic Installation Steps of the Project
-Before you start the installation process you need to have installed composer
+Before you start the installation process you need to have installed composer package
 
 * Clone the project
 * Navigate to the project root directory using command line
