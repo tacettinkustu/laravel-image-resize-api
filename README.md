@@ -52,7 +52,7 @@ Run php artisan serve which will start the server at http://localhost:8000
 👤 **Tacettin Kustu**
 
 - GitHub: [@tacettinkustu](https://github.com/tacettinkustu)
-- LinkedIn: [tacettinkustu](https://www.linkedin.com/in/tacettin-k%C3%BCst%C3%BC-aaba721b5/)
+- LinkedIn: [tacettinküstü](https://www.linkedin.com/in/tacettin-k%C3%BCst%C3%BC-aaba721b5/)
 
 
 Give a ⭐️ if you like this project!
