@@ -8,7 +8,7 @@
 * Simple, fast routing engine.
 * Powerful dependency injection container.
 * Multiple backends for sessions and cache storages.
-* Expressive, intuitive database ORM.
+* Expressive, intuitive database Eloquent ORM.
 * Database agnostic schema migrations.
 * Robust background job processing.
 * Real-time events broadcasting.
