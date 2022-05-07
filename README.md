@@ -11,7 +11,7 @@
 * Expressive, intuitive database Eloquent ORM.
 * Database agnostic schema migrations.
 * Robust background job processing.
-* Real-time events broadcasting.
+* Real-time event broadcasting.
 * Laravel is accessible, powerful, and provides tools required for large, robust applications of web.
 
 ## Built With
