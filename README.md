@@ -46,7 +46,7 @@ Before you start the installation process you need to have installed composer pa
  
 ## Installing locally for development environment
 
-Run php artisan serve which will start the server at http://localhost:8000
+Run php artisan serve which will start the server at http://localhost:****
 
 ## Author
 👤 **Tacettin Kustu**
