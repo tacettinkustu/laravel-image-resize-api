@@ -20,6 +20,7 @@
 * HTML
 * CSS + SCSS
 * Javascript
+* Vue
 
 ## Presentation of Project
 
