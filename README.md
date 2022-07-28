@@ -56,7 +56,7 @@ Run php artisan serve which will start the server at http://localhost:****
 - LinkedIn: [tacettinküstü](https://www.linkedin.com/in/tacettin-k%C3%BCst%C3%BC-aaba721b5/)
 
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project!!
 
 ## Contributing
 
